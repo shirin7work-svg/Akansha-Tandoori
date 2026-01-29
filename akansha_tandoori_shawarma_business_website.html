@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akansha Tandoori & Shawarma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #0e0e0e; color: #fff; line-height: 1.6; }
+    header { background: linear-gradient(135deg, #ff9800, #ff5722); padding: 20px; text-align: center; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1.1rem; }
+    nav { background: #111; display: flex; justify-content: center; gap: 25px; padding: 12px; position: sticky; top: 0; z-index: 10; }
+    nav a { color: #ff9800; text-decoration: none; font-weight: 600; }
+    nav a:hover { color: #fff; }
+    section { padding: 60px 10%; }
+    .hero { text-align: center; background: url('https://images.unsplash.com/photo-1604908554164-3b47fd1a3e3b') center/cover; }
+    .hero h2 { font-size: 3rem; background: rgba(0,0,0,0.6); display: inline-block; padding: 15px 25px; border-radius: 10px; }
+    .about, .services, .contact { background: #161616; margin-top: 20px; border-radius: 15px; }
+    h2.section-title { color: #ff9800; margin-bottom: 20px; font-size: 2rem; }
+    .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .menu-card { background: #1f1f1f; padding: 20px; border-radius: 12px; box-shadow: 0 0 15px rgba(255,152,0,0.15); }
+    .menu-card h3 { color: #ff5722; margin-bottom: 10px; }
+    .menu-card ul { list-style: none; }
+    .menu-card li { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px dashed #333; }
+    .menu-card li span { color: #ff9800; }
+    .services ul { list-style: none; }
+    .services li { padding: 8px 0; }
+    .contact p { margin-bottom: 10px; }
+    footer { background: #000; text-align: center; padding: 15px; margin-top: 40px; color: #aaa; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Akansha Tandoori & Shawarma</h1>
+  <p>Chinese • Tandoori • Shawarma • Fast Food</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#menu">Menu</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+  <h2>Delicious Flavours, Unforgettable Taste</h2>
+</section>
+
+<section id="about" class="about">
+  <h2 class="section-title">About Us</h2>
+  <p>Akansha Tandoori & Shawarma is your go-to food corner for mouth-watering Chinese dishes, flavour-packed shawarmas, and comforting rice & noodle meals. We focus on quality ingredients, hygienic preparation, and bold flavours that keep our customers coming back.</p>
+</section>
+
+<section id="menu">
+  <h2 class="section-title">Our Menu</h2>
+  <div class="menu-grid">
+    <div class="menu-card">
+      <h3>Shawarmas</h3>
+      <ul>
+        <li>Classic Shawarma <span>₹60</span></li>
+        <li>Cheese Shawarma <span>₹80</span></li>
+        <li>BBQ Shawarma <span>₹80</span></li>
+        <li>Peri Peri Shawarma <span>₹80</span></li>
+        <li>Extra Cheese <span>₹20</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-card">
+      <h3>Starters</h3>
+      <ul>
+        <li>Chicken Chilly <span>₹90 / ₹170</span></li>
+        <li>Chicken Crispy <span>₹90 / ₹170</span></li>
+        <li>Chicken Lollipop <span>₹80 / ₹150</span></li>
+        <li>Chicken 65 <span>₹100 / ₹180</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-card">
+      <h3>Noodles</h3>
+      <ul>
+        <li>Veg Noodles <span>₹60 / ₹100</span></li>
+        <li>Egg Noodles <span>₹60 / ₹100</span></li>
+        <li>Chicken Noodles <span>₹70 / ₹130</span></li>
+        <li>Chicken Schezwan Noodles <span>₹80 / ₹140</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-card">
+      <h3>Rice</h3>
+      <ul>
+        <li>Veg Fried Rice <span>₹60 / ₹100</span></li>
+        <li>Egg Fried Rice <span>₹60 / ₹100</span></li>
+        <li>Chicken Fried Rice <span>₹70 / ₹130</span></li>
+        <li>Chicken Schezwan Rice <span>₹80 / ₹140</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <h2 class="section-title">Our Services</h2>
+  <ul>
+    <li>✔ Dine-in & Takeaway</li>
+    <li>✔ Quick Service</li>
+    <li>✔ Bulk & Party Orders</li>
+    <li>✔ Online Payment Accepted</li>
+  </ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <p><strong>📞 Call:</strong> <a href="tel:9890802877" style="color:#ff9800">9890802877</a></p>
+  <p><strong>📍 Address:</strong> C-104, MH SH 35, Nayan Sagar, Rajlaxmi Complex, Kalher, Bhiwandi, Maharashtra 421302</p>
+  <p><a href="https://share.google/53IkPl4YvVEOuiRsu" target="_blank" style="color:#ff5722;font-weight:600">📍 View on Google Maps</a></p>
+  <p style="margin-top:15px;"><strong>🛵 Online Order:</strong></p>
+  <p>
+    <a href="https://www.swiggy.com/menu/1104643?source=sharing" target="_blank" style="color:#ff9800">Order on Swiggy</a> | 
+    <a href="https://zomato.onelink.me/xqzv/o8d2wvs6" target="_blank" style="color:#ff9800">Order on Zomato</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Akansha Tandoori & Shawarma. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
